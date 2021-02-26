@@ -55,7 +55,7 @@ Once you have it working in the console, write an event listener that will use t
 
 **YOUR NOTES**
 ```
-
+I need to find Raffy's picture then add the event listener feature. After, include the code will increase the number of likes.
 ```
 
 ## Deliverable 3: Add a New Animal Sighting Post

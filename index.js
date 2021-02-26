@@ -1,10 +1,17 @@
 /***** Deliverable 1 *****/
 const header = document.querySelector("#header")
 console.log("Here's your header:", header)
-
+header.addEventListener("click", function() {
+    if (header.style.color === "green") {
+        header.style.color = "black"
+    } else {
+        header.style.color = "green"
+    }
+})
 
 /***** Deliverable 2 *****/
 header.style.color = "green"
+const photo = document.querySelector()
 
 
 /***** Deliverable 3 *****/
@@ -61,9 +68,9 @@ animalToRemove.remove()
 /***** Deliverable 1 *****/
 function toggleColor(element) {
     if (element.style.color === "green") {
-        element.style.color = "black"
+        element.style.color = "red"
     } else {
-        element.style.color = "green"
+        element.style.color = "purple"
     }
 }
 
